@@ -1,0 +1,11 @@
+:root { color-scheme: dark; font-synthesis: none; }
+html { background: #090909; scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; overflow-x: hidden; background: #090909; color: #f5f5f4; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+::selection { background: #fff; color: #090909; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #090909; }
+::-webkit-scrollbar-thumb { background: #353535; border-radius: 999px; }
+.glass-panel { background: rgba(16, 16, 16, .78); border: 1px solid rgba(255, 255, 255, .1); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
